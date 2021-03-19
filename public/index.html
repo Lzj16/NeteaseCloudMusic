@@ -1,17 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>网易云音乐</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<style lang="less">
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  /* 新碟上架走马灯容器 */
+  .el-carousel__container {
+    height: 210px;
+  }
+  /* 新碟上架走马灯左侧按钮 */
+  .el-carousel__arrow--left{
+    left:4px
+  }
+  /* 新碟上架走马灯右侧按钮 */
+  .el-carousel__arrow--right{
+    right:4px
+  }
+  /* 新碟上架走马灯按钮 */
+  .el-carousel__arrow{
+    background-color: #d1cfcf;
+    width: 20px;
+    height: 20px;
+    top: 45%;
+  }
+  .el-carousel__arrow:hover{
+    background-color: #b6b4b4;
+  }
+  /* 新碟上架走马灯按钮箭头 */
+  .el-icon-arrow-left:before,.el-icon-arrow-right:before{
+    color: #898989;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  
+  /* 新碟上架走马灯指示器 */
+  .el-carousel__button{
+    background-color: red;
+  }
+  
+</style>
+
 </html>

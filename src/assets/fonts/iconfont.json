@@ -1,0 +1,107 @@
+{
+  "id": "1934418",
+  "name": "网易云音乐",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1003497",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1535102",
+      "name": "mv",
+      "font_class": "mv",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7118943",
+      "name": "上箭头",
+      "font_class": "jiantou",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "9101183",
+      "name": "表",
+      "font_class": "biao",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "12588562",
+      "name": "表情",
+      "font_class": "smile",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "7094394",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "8141193",
+      "name": "分 享",
+      "font_class": "fenxiang",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "14644442",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "5381397",
+      "name": "V",
+      "font_class": "V",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "14720841",
+      "name": "加号（添加）",
+      "font_class": "add",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12627524",
+      "name": "添加收藏夹",
+      "font_class": "shoucang",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "3586082",
+      "name": "右箭头",
+      "font_class": "arrow-right",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9977908",
+      "name": "右箭头",
+      "font_class": "arrow-left",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1233571",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}

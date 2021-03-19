@@ -14,50 +14,50 @@ const routes = [
     path: '/',
     redirect: '/discover/recomend',
     name: 'Home',
-    component: resolve => require(['../views/home/Home'], resolve),
+    component: () => import('../views/home/Home'),
     children: [
       {
         path: '/discover',
-        component: resolve => require(['../views/discover/Discover'], resolve), children: [
+        component: () => import('../views/discover/Discover'), children: [
           {
             path: '/discover/recomend',
-            component: resolve => require(['../views/discover/components/Recomend'], resolve)
+            component: () => import('../views/discover/components/Recomend')
           },
           {
             path: '/discover/toplist',
-            component: resolve => require(['../views/discover/components/Toplist'], resolve),
+            component: () => import('../views/discover/components/Toplist'),
             children: [
               {
                 path: '/discover/toplist',
-                component: resolve => require(['@/components/PlaylistDetail.vue'], resolve)
+                component: () => import('@/components/PlaylistDetail.vue')
               }
             ]
           },
           {
             path: '/discover/playlist',
-            component: resolve => require(['../views/discover/components/Playlist'], resolve)
+            component: () => import('../views/discover/components/Playlist')
           },
           {
             path: '/discover/djradio',
-            component: resolve => require(['../views/discover/components/Djradio'], resolve)
+            component: () => import('../views/discover/components/Djradio')
           },
           {
             path: '/discover/artist',
-            component: resolve => require(['../views/discover/components/Artist'], resolve)
+            component: () => import('../views/discover/components/Artist')
           },
           {
             path: '/discover/album',
-            component: resolve => require(['../views/discover/components/Album'], resolve)
+            component: () => import('../views/discover/components/Album')
           }
         ]
       },
       {
         path: '/my',
-        component: resolve => require(['../views/my/My'], resolve)
+        component: () => import('../views/my/My')
       },
       {
         path: '/friend',
-        component: resolve => require(['../views/friend/Friend'], resolve)
+        component: () => import('../views/friend/Friend')
       }
     ]
   }
